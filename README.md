@@ -69,12 +69,16 @@ python3 hangman.py
 
 ### The Logic
 **1. The Objective:** Guess the hidden word one letter at a time before the hangman is fully drawn.
+
 **2. Input:** Type a single letter and press 'Enter'.
+
 **3. Feedback:** The game will show you your correctly guessed letters and a list of missed attempts.
+
 **4. Win/Loss:** If you complete the word, you win! If the hangman is finished (after 6 wrong guesses), the game is over.
 
 ## 🛠️ Requirements
 **Python 3.x:** Works perfectly on any system with Python installed.
+
 **Linux/Unix Optimized:** Tested on Arch, Ubuntu, Fedora, Mint, (Any Ubuntu-based distros) & MacOS.
 
 ## 🧠 Why I Built This
@@ -82,8 +86,11 @@ This project was a deep dive into Python logic loops and string manipulation. It
 
 ## 📈 Key Learnings
 By building this CLI game, I focused on:
+
 **1. Input Handling:** Managing user errors and ensuring the game doesn't crash on weird inputs.
+
 **2. Game State Management:** Keeping track of lives, guessed letters, and the hidden word simultaneously.
+
 **3. Terminal UI:** Using ASCII arts to provide visual feedback within a text-only environment.
 
 ### Contributing:
