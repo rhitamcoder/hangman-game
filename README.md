@@ -23,9 +23,6 @@ Open your terminal and clone this repository:
 ```
 git clone https://github.com/rhitamcoder/hangman-game.git
 ```
-```
-cd hangman-game
-```
 *(Alternatively, click the green **Code** button on Github and select **Download ZIP**.)*
 
 ### 2. Create a Global Command
