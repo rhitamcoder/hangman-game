@@ -14,7 +14,7 @@ print(logo)
 
 chosen_word = random.choice(word_list).lower()
 
-level = input("Choose Your Level -- Easy of Hard: ").lower()
+level = input("Choose Your Level -- Easy 😎 or Hard 🤯?: ").lower()
 if level == "easy":
     print(chosen_word)
 else:
