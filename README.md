@@ -1,4 +1,4 @@
-# 🪓 Hangman CLI Game
+# 🪓 Gallows
 A classic, lightweight word-guessing game built in Python. Designed for the terminal, this version of Hangman focuses on clean logic, interactive gameplay, and that nostalgic "low-fi" terminal aesthetic.
 
 ## 🌟 Features
@@ -21,27 +21,27 @@ Includes a dedicated word list file, making it easy to add or customize categori
 ### 1. Download the Tool
 Open your terminal and clone this repository:
 ```
-git clone https://github.com/rhitamcoder/hangman-game.git
+git clone https://github.com/rhitamcoder/gallows.git
 ```
 *(Alternatively, click the green **Code** button on Github and select **Download ZIP**.)*
 
 ### 2. Create a Global Command
-If you want to play the game by simply typing 'hangman' from any folder in your terminal, follow these steps into a new terminal window:
+If you want to play the game by simply typing 'gallows' from any folder in your terminal, follow these steps into a new terminal window:
 
 #### 1. Hide the folder:
 ```
-mv hangman-game .hangman-game
+mv gallows .gallows
 ```
 
 #### 2. Create a launcher script:
 ```
-sudo nano /usr/local/bin/hangman
+sudo nano /usr/local/bin/gallows
 ```
 
 #### 3. Paste the following logic (Replace /path/to/ with the actual path where you cloned the folder):
 ```
 #!/bin/bash
-cd /path/to/.hangman-game/ && python3 hangman.py
+cd /path/to/.gallows/ && python3 hangman.py
 ```
 
 #### 4. Save and Exit:
@@ -49,13 +49,13 @@ Press 'Ctrl+O', 'Enter', then 'Ctrl+X'.
 
 #### 5. Make it executable:
 ```
-sudo chmod +x /usr/local/bin/hangman
+sudo chmod +x /usr/local/bin/gallows
 ```
 
 ## 🎮 How to Use
 Simple open your terminal and type: 
 ```
-hangman
+gallows
 ```
 
 ### Manual Run
